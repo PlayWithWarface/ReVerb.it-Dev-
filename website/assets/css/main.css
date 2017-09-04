@@ -1,0 +1,422 @@
+/************************
+
+CMSHeroes - Main styling
+
+************************/
+
+
+body {
+    background-image: url(../../assets/img/background/main.jpg);
+    background-position: center;
+    background-position: top;    
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+/* Login form */
+
+input[type="text"]
+{
+    font-size: 14px;
+    color: #A4A4A4;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    width: 180px;
+    height: 25px;
+    font-weight: bold;
+    margin: auto;
+    z-index: 1;
+    padding-left: 10px;
+    left: 50%;
+    position: absolute;
+    margin-left: -260px;
+    margin-top: 72px;
+}
+input[type="password"]
+{
+    font-size: 14px;
+    color: #A4A4A4;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    width: 160px;
+    height: 25px;
+    font-weight: bold;
+    margin: auto;
+    z-index: 1;
+    padding-left: 10px;
+    left: 50%;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 72px;
+}
+
+.btn_login
+{
+    padding: 12px 20px;
+    color: #fff;
+    background-color: #006600;
+    border: 2px solid #004d00;
+    border-radius: 4px;
+    border-bottom: 2px solid #004d00;
+    cursor: pointer;
+    padding-left: 18px;
+    border-radius: 5px;
+    margin-left: 140px;
+    width: 100px;
+    height: 10px;
+    z-index: 1;
+    line-height: 2px;
+    left: 50%;
+    position: absolute;
+    margin-left: 190px;
+    font-weight: bold;
+    transform: translate(-49.5%, 72px);
+}
+.btn_login:hover {
+    
+    border-bottom: 4px solid #27AE60;
+    background-color: #2ECC71;
+}
+
+/* Header */
+
+.username {
+    padding-left: 10px;
+    border-radius: 5px;
+    font-weight: bold; 
+    color: white;
+    font-family: 'Arial';
+    margin: auto;
+    z-index: 1;
+    left: 50%;
+    position: absolute;
+    margin-left: -215px;
+    margin-top: 78px;
+}
+.profileIcon {
+    margin: auto;
+    z-index: 1;
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 30px;
+    left: 50%;
+    position: absolute;
+    margin-left: -270px;
+    margin-top: 104px;
+}
+.headerImage {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 12.5px);
+}
+.headerBar {
+    margin: 0;
+    position: absolute;
+    left: 50vw;
+    margin-right: -50%;
+    transform: translate(-50.8%, 16px);
+    border: 2px solid black;
+}
+.insideheaderBar {
+    width: 225px;
+    height: 25px;
+    margin-left: -150px;
+    margin: auto;
+    z-index: 1;
+    position: absolute;
+    border-radius: 10px;
+    width: 250px;
+    padding-left: 5px;
+    left: 50%;
+    position: absolute;
+    margin-left: -260px;
+    margin-top: 108px;
+    border: 2px solid #1f1e1e;
+    
+}
+.headerLogo {
+    margin: auto;
+    z-index: 1;
+    padding-left: 5px;
+    border-radius: 5px;
+    left: 50%;
+    position: absolute;
+    margin-left: -550px;
+    margin-top: 4px;
+    font-weight: bold;
+
+}
+.headerMenuIcon1 {
+    margin: auto;
+    z-index: 1;
+    padding-left: 5px;
+    left: 50%;
+    position: absolute;
+    margin-left: -280px;
+    margin-top: 21px;
+}
+.expander1 {
+    margin: auto;
+    z-index: 1;
+    padding-left: 94px;
+    left: 50%;
+    position: absolute;
+    margin-left: -280px;
+    margin-top: 28px;
+}
+.headerMenuIcon2 {
+    margin: auto;
+    z-index: 1;
+    padding-left: 94px;
+    left: 50%;
+    position: absolute;
+    margin-left: -240px;
+    margin-top: 20px;
+}
+.expander2 {
+    margin: auto;
+    z-index: 1;
+    padding-left: 94px;
+    left: 50%;
+    position: absolute;
+    margin-left: -138px;
+    margin-top: 28px;
+}
+.headerMenuIcon3 {
+    margin: auto;
+    z-index: 1;
+    padding-left: 94px;
+    left: 50%;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 21px;
+}
+.expander3 {
+    margin: auto;
+    z-index: 1;
+    padding-left: 94px;
+    left: 50%;
+    position: absolute;
+    margin-left: 14px;
+    margin-top: 28px;
+}
+.playNow_btn {
+
+    margin: auto;
+    z-index: 1;
+    padding-left: 5px;
+    border-radius: 5px;
+    left: 50%;
+    position: absolute;
+    top: 4.2%;
+    margin-left: 290px;
+    font-weight: bold;
+
+}
+.playNow_btn:hover {
+    opacity: 0.9;
+    position: absolute;  
+}
+
+/* Body container */
+
+.containerBox {
+    margin-right: -50%;
+    transform: translate(-50.5%, 450px);
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-radius: 10px;
+    width: 950px;
+    margin: 0;
+    position: absolute;
+    left: 50vw;
+    margin-right: -50%;
+    transform: translate(-50.5%, 138px);
+    z-index: 1;
+}
+.containerboxBottom {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0;
+    position: absolute;
+    left: 50vw;
+    margin-right: -50%;
+    transform: translate(-50.5%, 668px);
+    border: 2px solid black;
+    width: 950px;
+    z-index: 0;
+    height: 73%;
+}
+
+/* Body division */
+
+.bodyBg {
+    
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    left: 50%;
+    position: absolute;
+    margin-left: 0;
+    font-weight: bold;
+    transform: translate(-49.5%, 112px);
+    
+}
+.bodyBg2 {
+    left: 50%;
+    position: absolute;
+    margin-left: 0;
+    font-weight: bold;
+    transform: translate(-49.5%, 96px);
+    top: 70%;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.endbodyBar {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50.3%, 465px);
+    z-index: -1;
+    margin-left: 0;
+    transform: translate(-49.5%, 750px);
+    top: 70%;
+}
+
+/* Navbar */
+
+.navbar {
+    width: auto;
+    height: 34px;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow:0px 1px 1px #272727;
+    -moz-box-shadow:0px 1px 1px #272727;
+    box-shadow:0px 2px 2px #272727;
+    border-bottom: 2px solid black;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float:left;
+    width:100%;
+    overflow: hidden;
+}
+
+
+.navbar li {
+    float: left;
+    width: 25%;
+    min-width: 243px;
+    background-color: #272727;
+    
+    
+}
+
+.navbar a:link, a:visited {
+    display: block;
+    height: 42px;
+    min-width: 243px;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Raleway', Arial;
+    letter-spacing: 2pt;
+    line-height: 140%;
+    overflow: hidden;
+}
+.email {
+    margin: auto;
+    z-index: 1;
+    border-radius: 5px;
+    left: 50%;
+    position: absolute;
+    top: 1.7%;
+    font-weight: bold; 
+    color: grey;
+    font-family: 'Arial';
+    border-width: 2px solid #2F2F2F; 
+    font-size: 13px;
+    transform: translate(-50%, -50%);
+}
+.logout_button a
+{
+    text-decoration: none;
+}
+.logout_button {
+    margin: auto;
+    z-index: 1;
+    border-radius: 5px;
+    left: 50%;
+    position: absolute;
+    top: 1.15%;
+    margin-left: 100px;
+    color: #d6d4d1;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Arial';
+}
+
+/* Footer */
+
+.footerBar {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50.3%, 465px);
+    z-index: 1;
+    margin-left: 0;
+    transform: translate(-49.5%, 775px);
+    top: 70%;
+
+}
+.footerCopyrights {
+margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50.3%, 465px);
+    z-index: -2;
+    margin-left: 0;
+    transform: translate(-49.2%, 910px);
+    top: 70%;
+}
+.copyrightText {
+    margin: 0;
+    position: absolute;
+    left: 50vw;
+    top: 70%;
+    margin-right: -50%;
+    transform: translate(-49.2%, 936px);
+    z-index: 1;
+    font-family: 'Arial';
+    color: white;
+    font-size: 12px;
+}
+
+/* Make navbar links not clickable */
+
+.not-active {
+   pointer-events: none;
+   cursor: default;
+}
+
+/************************
+
+CMSHeroes - Main styling
+
+************************/

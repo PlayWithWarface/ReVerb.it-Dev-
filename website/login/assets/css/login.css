@@ -1,0 +1,633 @@
+/************************
+
+CMSHeroes - Login styling
+
+************************/
+
+body {
+    background-image: url(../../../assets/img/background/main.jpg);
+    background-position: center;
+    background-position: top;    
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+/* Login form */
+
+input[type="text"].email
+{
+    font-size: 14px;
+    color: black;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    width: 160px;
+    height: 25px;
+    font-weight: bold;
+    margin: auto;
+    z-index: 1;
+    padding-left: 10px;
+    left: 50%;
+    position: absolute;
+    margin-left: -160px;
+    margin-top: 105px;
+}
+input[type="password"].password
+{
+    font-size: 14px;
+    color: black;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    width: 160px;
+    height: 25px;
+    font-weight: bold;
+    margin: auto;
+    z-index: 1;
+    padding-left: 10px;
+    left: 50%;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 72px;
+}
+
+.btn_login
+{
+    padding: 12px 20px;
+    color: #fff;
+    background-color: #006600;
+    border: 2px solid #004d00;
+    border-radius: 4px;
+    border-bottom: 2px solid #004d00;
+    cursor: pointer;
+    padding-left: 18px;
+    border-radius: 5px;
+    margin-left: 140px;
+    width: 100px;
+    height: 10px;
+    z-index: 1;
+    line-height: 2px;
+    left: 50%;
+    position: absolute;
+    margin-left: 190px;
+    font-weight: bold;
+    transform: translate(-49.5%, 72px);
+}
+.btn_login:hover {
+    
+    border-bottom: 4px solid #27AE60;
+    background-color: #2ECC71;
+}
+
+/* Register form */
+
+input[type="text"].username-reg {
+    font-size: 14px;
+    color: black;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: absolute;
+    width: 220px;
+    height: 25px;
+    font-weight: bold;
+    margin: auto;
+    z-index: 3;
+    padding-left: 10px;
+    left: 50%;
+    position: absolute;
+    margin-left: -14px;
+    margin-top: 366px;
+}
+input[type="text"].email-reg {
+    font-size: 14px;
+    color: black;
+    background-color: #fff;
+    border: 2px solid black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    width: 290px;
+    height: 25px;
+    font-weight: bold;
+    margin: auto;
+    z-index: 3;
+    padding-left: 10px;
+    left: 50%;
+    position: absolute;
+    margin-left: -80px;
+    margin-top: 450px;
+}
+input[type="password"].password-reg {
+    font-size: 14px;
+    color: black;
+    background-color: #fff;
+    border: 2px solid black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    width: 290px;
+    height: 25px;
+    font-weight: bold;
+    margin: auto;
+    z-index: 3;
+    padding-left: 10px;
+    left: 50%;
+    position: absolute;
+    margin-left: -80px;
+    margin-top: 530px;
+}
+input[type="password"].password2-reg {
+    font-size: 14px;
+    color: black;
+    background-color: #fff;
+    border: 2px solid black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    width: 290px;
+    height: 25px;
+    font-weight: bold;
+    margin: auto;
+    z-index: 3;
+    padding-left: 10px;
+    left: 50%;
+    position: absolute;
+    margin-left: -80px;
+    margin-top: 580px;
+}
+.btn_register {
+    padding: 5px 25px;
+    font-weight: bold;
+    color: white;
+    background-color: #836042;
+    border: none;
+    border-radius: 4px;
+    border-bottom: 4px solid #5F4630;
+    border-top: 2px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    margin-bottom: 10px;
+    cursor: pointer;  
+    margin: auto;
+    z-index: 4;
+    position: absolute;
+    left: 50%;
+    position: absolute;
+    margin-left: -5px;
+    margin-top: 645px;
+
+    font-size: 20px;
+}
+
+.reg-player-icon {
+    margin: auto;
+    z-index: 4;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 65px;
+    left: 50%;
+    position: absolute;
+    margin-left: -80px;
+    margin-top: 345px;
+}
+.heroName {
+    margin: auto;
+    z-index: 5;
+    position: absolute;
+    left: 50%;
+    position: absolute;
+    margin-left: -80px;
+    margin-top: 300px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Arial';
+    font-size: 16px;
+    padding: 2.5px;
+    background-color: #835C3B;
+}
+.emailAdress {
+    margin: auto;
+    z-index: 5;
+    position: absolute;
+    left: 50%;
+    position: absolute;
+    margin-left: -80px;
+    margin-top: 425px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Arial';
+    font-size: 16px;
+    padding: 2.5px;
+    background-color: #835C3B;
+}
+.passwordOne {
+    margin: auto;
+    z-index: 5;
+    position: absolute;
+    left: 50%;
+    position: absolute;
+    margin-left: -80px;
+    margin-top: 525px;
+    font-family: 'Arial';
+    color: black;
+    font-weight: bold;
+    padding: 2.5px;
+    background-color: #835C3B;
+}
+.passwordTwo {
+    margin: auto;
+    z-index: 5;
+    position: absolute;
+    left: 50%;
+    position: absolute;
+    margin-left: -80px;
+    margin-top: 625px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Arial';
+    font-size: 16px;
+    padding: 2.5px;
+    background-color: #835C3B;
+}
+.background-form {
+    margin: auto;
+    z-index: 3;
+    position: absolute;
+    left: 50%;
+    position: absolute;
+    margin-left: -120px;
+    margin-top: 328px;
+    color: white;
+    border: 2px solid black;
+    background-color: #835C3B;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: 'Arial';
+    font-size: 12px;
+    padding: 2.5px;
+    width: 375px;
+    height: 388px;
+}
+
+/* Header */
+
+.username {
+    padding-left: 10px;
+    border-radius: 5px;
+    font-weight: bold; 
+    color: white;
+    font-family: 'Arial';
+    margin: auto;
+    z-index: 1;
+    left: 50%;
+    position: absolute;
+    margin-left: -215px;
+    margin-top: 60px;
+}
+.profileIcon {
+    margin: auto;
+    z-index: 1;
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 30px;
+    left: 50%;
+    position: absolute;
+    margin-left: -260px;
+    margin-top: 86px;
+}
+.headerImage {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -5px);
+}
+.headerBar {
+    margin: 0;
+    position: absolute;
+    left: 50vw;
+    margin-right: -50%;
+    transform: translate(-50.8%, 16px);
+    border: 2px solid black;
+}
+.insideheaderBar {
+    width: 225px;
+    height: 25px;
+    margin-left: -150px;
+    margin: auto;
+    z-index: 1;
+    position: absolute;
+    border-radius: 10px;
+    width: 250px;
+    padding-left: 5px;
+    left: 50%;
+    position: absolute;
+    margin-left: -260px;
+    margin-top: 89px;
+    border: 2px solid #1f1e1e;
+    
+}
+.headerLogo {
+    margin: auto;
+    z-index: 1;
+    padding-left: 5px;
+    border-radius: 5px;
+    left: 50%;
+    position: absolute;
+    margin-left: -550px;
+    margin-top: -14px;
+    font-weight: bold;
+
+}
+.headerMenuIcon1 {
+    margin: auto;
+    z-index: 1;
+    padding-left: 5px;
+    left: 50%;
+    position: absolute;
+    margin-left: -280px;
+    margin-top: 3px;
+}
+.expander1 {
+    margin: auto;
+    z-index: 1;
+    padding-left: 94px;
+    left: 50%;
+    position: absolute;
+    margin-left: -280px;
+    margin-top: 10px;
+}
+.headerMenuIcon2 {
+    margin: auto;
+    z-index: 1;
+    padding-left: 94px;
+    left: 50%;
+    position: absolute;
+    margin-left: -240px;
+    margin-top: 3px;
+}
+.expander2 {
+    margin: auto;
+    z-index: 1;
+    padding-left: 94px;
+    left: 50%;
+    position: absolute;
+    margin-left: -138px;
+    margin-top: 10px;
+}
+.headerMenuIcon3 {
+    margin: auto;
+    z-index: 1;
+    padding-left: 94px;
+    left: 50%;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 4px;
+}
+.expander3 {
+    margin: auto;
+    z-index: 1;
+    padding-left: 94px;
+    left: 50%;
+    position: absolute;
+    margin-left: 14px;
+    margin-top: 10px;
+}
+.playNow_btn {
+
+    margin: auto;
+    z-index: 1;
+    padding-left: 5px;
+    border-radius: 5px;
+    left: 50%;
+    position: absolute;
+    top: 4.2%;
+    margin-left: 290px;
+    font-weight: bold;
+
+}
+.playNow_btn:hover {
+    opacity: 0.9;
+    position: absolute;  
+}
+
+/* Body container */
+
+.containerBox {
+    margin-right: -50%;
+    transform: translate(-50.5%, 450px);
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-radius: 10px;
+    width: 950px;
+    margin: 0;
+    position: absolute;
+    left: 50vw;
+    margin-right: -50%;
+    transform: translate(-50.5%, 120px);
+    z-index: 1;
+}
+.containerboxBottom {
+
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0;
+    position: absolute;
+    left: 50vw;
+    margin-right: -50%;
+    transform: translate(-50.5%, 260px);
+    border: 2px solid black;
+    width: 950px;
+    z-index: 0;
+}
+
+/* Body content */
+
+.speechBubble {
+    left: 50%;
+    position: absolute;
+    margin-left: -325px;
+    font-weight: bold;
+    transform: translate(-14.5%, 190px);
+    z-index: 3;
+    width: 375px;
+}
+.infoIcon {
+    left: 50%;
+    position: absolute;
+    margin-left: -325px;
+    font-weight: bold;
+    transform: translate(-45.5%, 342px);
+    z-index: 3;
+}
+.wood_planks {
+    left: 50%;
+    position: absolute;
+    margin-left: -25px;
+    font-weight: bold;
+    transform: translate(-47%, 195px);
+    z-index: 2;
+    width: 800px;
+    height: 700px;
+    border: 4px solid black;
+}
+
+/* Body division */
+
+.bodyBg {  
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    left: 50%;
+    position: absolute;
+    margin-left: 0;
+    font-weight: bold;
+    transform: translate(-49.5%, 94px);
+}
+.bodyBg2 {
+    left: 50%;
+    position: absolute;
+    margin-left: 0;
+    font-weight: bold;
+    transform: translate(-49.5%, 346px);
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.endbodyBar {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50.3%, 465px);
+    z-index: -1;
+    margin-left: 0;
+    transform: translate(-49.5%, 1010px);
+    
+}
+
+/* Navbar */
+
+.navbar {
+    width: auto;
+    height: 34px;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow:0px 1px 1px #272727;
+    -moz-box-shadow:0px 1px 1px #272727;
+    box-shadow:0px 2px 2px #272727;
+    border-bottom: 2px solid black;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float:left;
+    width:100%;
+    overflow: hidden;
+}
+.navbar li {
+    float: left;
+    width: 25%;
+    min-width: 243px;
+    background-color: #272727;
+    
+    
+}
+.navbar a:link, a:visited {
+    display: block;
+    height: 42px;
+    min-width: 243px;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Raleway', Arial;
+    letter-spacing: 2pt;
+    line-height: 140%;
+    overflow: hidden;
+}
+.email {
+    margin: auto;
+    z-index: 1;
+    border-radius: 5px;
+    left: 50%;
+    position: absolute;
+    top: 1.7%;
+    font-weight: bold; 
+    color: grey;
+    font-family: 'Arial';
+    border-width: 2px solid #2F2F2F; 
+    font-size: 13px;
+    transform: translate(-50%, -50%);
+}
+.logout_button a
+{
+    text-decoration: none;
+}
+.logout_button {
+    margin: auto;
+    z-index: 1;
+    border-radius: 5px;
+    left: 50%;
+    position: absolute;
+    top: 1.15%;
+    margin-left: 100px;
+    color: #d6d4d1;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Arial';
+}
+
+
+/* Footer */
+
+.footerBar {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    z-index: 1;
+    margin-left: 0;
+    transform: translate(-49.5%, 1035px);
+
+}
+.footerCopyrights {
+margin: 0;
+    position: absolute;
+    left: 50%;
+    z-index: -2;
+    margin-left: 0;
+    transform: translate(-49.2%, 1178px);
+}
+.copyrightText {
+    margin: 0;
+    position: absolute;
+    left: 50vw;
+    margin-right: -50%;
+    transform: translate(-49.2%, 1168px);
+    z-index: 1;
+    font-family: 'Arial';
+    color: white;
+    font-size: 12px;
+}
+
+/* Make navbar links not clickable */
+
+.not-active {
+   pointer-events: none;
+   cursor: default;
+}
+
+/************************
+
+CMSHeroes - Login styling
+
+************************/
